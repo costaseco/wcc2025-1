@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7af8a9c4-535a-4347-994d-1bb2369b6f67" name="Changes" comment="Added a form with a list in memory">
+    <list default="true" id="7af8a9c4-535a-4347-994d-1bb2369b6f67" name="Changes" comment="Added a form to complete each item">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
@@ -50,7 +50,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="wcc2025 - ShoppingLIst" type="Python.FlaskServer">
+    <configuration name="wcc2025 - ShoppingLIst" type="Python.FlaskServer" focusToolWindowBeforeRun="true">
       <module name="wcc2025 - ShoppingLIst" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
@@ -58,6 +58,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (wcc2025 - ShoppingLIst)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -83,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737980053599</updated>
-      <workItem from="1737980054672" duration="5288000" />
+      <workItem from="1737980054672" duration="8301000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -109,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737981065416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added a form to complete each item">
+      <option name="closed" value="true" />
+      <created>1737993148630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737993148630</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,9 +128,10 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Added a list" />
     <MESSAGE value="Added a form with a list in memory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a form with a list in memory" />
+    <MESSAGE value="Added a form to complete each item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a form to complete each item" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/wcc2025___ShoppingLIst$wcc2025___ShoppingLIst.coverage" NAME="wcc2025 - ShoppingLIst Coverage Results" MODIFIED="1737992722865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/wcc2025___ShoppingLIst$wcc2025___ShoppingLIst.coverage" NAME="wcc2025 - ShoppingLIst Coverage Results" MODIFIED="1737996198211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

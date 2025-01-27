@@ -7,8 +7,8 @@
         {% for item in list %}
             <li>
                 <form action="/complete">
-                <input type="checkbox" name="index" value="{{ loop.index0 }}" onchange="this.form.submit()">
-                    {{ item }}
+                <input type="checkbox" name="id" value="{{ item.id }}" onchange="this.form.submit()">
+                    {{ item.name }}
                 </form>
             </li>
         {% endfor %}
