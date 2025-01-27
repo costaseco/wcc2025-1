@@ -8,6 +8,11 @@
         <li>{{ item }}</li>
         {% endfor %}
     </ul>
+    <form action="/" method="post">
+        <label for="item">Add item:</label>
+        <input type="text" id="item" name="item">
+        <input type="submit" value="Add">
+    </form>
 </head>
 <body>
 
