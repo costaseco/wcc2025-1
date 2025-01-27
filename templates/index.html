@@ -5,7 +5,12 @@
     <title>Shooping list</title>
     <ul>
         {% for item in list %}
-        <li>{{ item }}</li>
+            <li>
+                <form action="/complete">
+                <input type="checkbox" name="index" value="{{ loop.index0 }}" onchange="this.form.submit()">
+                    {{ item }}
+                </form>
+            </li>
         {% endfor %}
     </ul>
     <form action="/" method="post">
